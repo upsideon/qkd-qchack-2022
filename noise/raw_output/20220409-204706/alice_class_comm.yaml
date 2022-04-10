@@ -1,0 +1,63 @@
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 56
+  INS: SEND
+  LOG: 'Send classical message to bob: 000011010010110010010001110011000111111000110111'
+  MSG: '000011010010110010010001110011000111111000110111'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.790521'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.790634'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: RECV
+  LOG: 'Message received from bob: 101001101110001001010000001010110010110011000011'
+  MSG: '101001101110001001010000001010110010110011000011'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.896364'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 66
+  INS: SEND
+  LOG: 'Send classical message to bob: 1,4,6,0,3'
+  MSG: 1,4,6,0,3
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.896529'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 76
+  INS: SEND
+  LOG: 'Send classical message to bob: 01100'
+  MSG: '01100'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.896619'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:47:22.896694'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from bob: 01100'
+  MSG: '01100'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:47:23.019380'

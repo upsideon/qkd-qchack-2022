@@ -1,0 +1,3550 @@
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR: {}
+  QID:
+  - 0
+  - 0
+  SIT: 12961.0
+  TYP: null
+  WCT: '2022-04-09 20:55:54.584811'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344665157:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 13961.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:54.587237'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344672435:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 17025.0
+  TYP: null
+  WCT: '2022-04-09 20:55:54.917308'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344674267:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 18025.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:54.918954'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344674267:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 19352.0
+  TYP: null
+  WCT: '2022-04-09 20:55:54.974908'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344643904:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 20352.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:54.976572'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR: {}
+  QID:
+  - 0
+  - 0
+  SIT: 21678.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.005849'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344643949:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 22678.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.007196'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR: {}
+  QID:
+  - 0
+  - 0
+  SIT: 26814.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.093994'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344644019:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 27814.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.096261'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344643964:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 30879.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.192943'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344644084:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 31879.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.194554'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344644084:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 34565.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.240218'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647247:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 35565.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.241819'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR: {}
+  QID:
+  - 0
+  - 0
+  SIT: 37404.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.296978'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647287:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 38404.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.299625'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR: {}
+  QID:
+  - 0
+  - 0
+  SIT: 39656.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.313125'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647347:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 40656.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.314768'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647347:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 1
+  SIT: 42987.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.344019'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647347:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344647402:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 43987.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.345700'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 46277.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.396904'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344649024:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 47277.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.398798'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344649024:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 2
+  SIT: 49418.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.418136'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344649024:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344649079:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 50418.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.419915'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344649024:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344649079:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 1
+  SIT: 53686.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.457786'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649024:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344649079:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344649179:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 54686.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.459598'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344647292:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344649079:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344649179:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 55829.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.496487'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649079:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344649164:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8739344649179:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 56829.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.498832'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649079:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344649179:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 58954.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.514807'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649179:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344654927:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 59954.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.516913'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649179:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344654927:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 63463.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.626546'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649164:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344654927:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344654997:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 64463.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.634791'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344649164:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344654927:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 0
+  SIT: 66732.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.689075'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344655067:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344655082:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 67732.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.692571'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344655067:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344655082:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 69227.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.784089'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344626993:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344655082:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 70227.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.786399'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344626993:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344655082:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 74664.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.848143'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344626993:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344627083:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 75664.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.850413'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344654997:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344655027:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 1
+  SIT: 77939.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.908676'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627083:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344627128:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+    8739344655027:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 1
+  SIT: 78939.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.918760'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627128:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344655027:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 81115.0
+  TYP: null
+  WCT: '2022-04-09 20:55:55.969299'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627128:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344627188:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8739344655027:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 82115.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:55.972748'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627128:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344627188:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344655027:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 84454.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.104737'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627128:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344627188:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344633162:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 85454.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.108083'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344627128:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344627188:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344633162:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 86526.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.164616'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633162:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633227:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 87526.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.169168'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633162:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 88863.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.262720'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633162:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633272:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 89863.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.299085'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633162:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344633227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 2
+  SIT: 91024.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.336796'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633337:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 92024.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.339812'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344633282:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633337:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 95196.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.408256'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633337:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344638277:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 96196.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.409712'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633272:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344633337:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344638277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 0
+  SIT: 99708.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.523480'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633337:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344638277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344638357:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 100708.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.525058'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344633337:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344638277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 2
+  SIT: 105273.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.708363'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344638357:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344638402:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 106273.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.717072'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344638357:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344638402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 1
+  SIT: 108690.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.789811'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344642077:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 109690.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.793399'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638357:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344638402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344642077:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 110908.0
+  TYP: null
+  WCT: '2022-04-09 20:55:56.967072'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344642077:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642137:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 111908.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:56.969544'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638402:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344642077:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642137:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 2
+  SIT: 114228.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.014912'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638427:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642187:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 115228.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.018385'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344638427:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642187:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 1
+  SIT: 117572.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.068561'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344642187:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344642252:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 118572.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.071891'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344642187:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642252:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 121035.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.122833'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344642187:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642252:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642257:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 122035.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.124810'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344642187:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642252:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642257:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 123757.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.225806'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614479:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+    8739344642252:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642257:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 124757.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.228498'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614479:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344642252:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 125930.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.252726'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614479:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344614544:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 126930.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.254426'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614479:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344614489:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344614544:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 130082.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.280543'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614479:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344614544:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344614614:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 131082.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.282091'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614544:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344614559:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344614629:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 2
+  SIT: 133239.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.374389'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+    8739344614544:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 2
+  SIT: 134239.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.375855'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344614544:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344614649:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 136392.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.442351'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619604:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 137392.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.443870'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619604:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 0
+  SIT: 141030.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.573305'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619604:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344619664:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 142030.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.575969'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614529:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619604:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344619664:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 2
+  SIT: 144191.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.612713'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619604:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344619664:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344619744:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 145191.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.614756'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344614579:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619744:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 1
+  SIT: 146525.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.701735'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+    8739344619744:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 1
+  SIT: 147525.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.705219'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619664:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344619744:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  - 0
+  SIT: 148849.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.776014'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344619744:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344624227:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 149849.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.778030'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344619744:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 2
+  SIT: 151502.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.849488'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344624227:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344624277:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 152502.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.852384'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344624277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 0
+  SIT: 156195.0
+  TYP: null
+  WCT: '2022-04-09 20:55:57.904636'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344624277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344624357:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 157195.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:57.906351'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344619739:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344624277:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344624357:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 158919.0
+  TYP: null
+  WCT: '2022-04-09 20:55:58.016954'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+    8739344619724:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 159919.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:58.035542'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344619724:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 2
+  SIT: 161286.0
+  TYP: null
+  WCT: '2022-04-09 20:55:58.063763'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596313:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 2
+      state: null
+  QID:
+  - 0
+  - 2
+  SIT: 162286.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:58.065385'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596313:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  - 0
+  SIT: 168462.0
+  TYP: null
+  WCT: '2022-04-09 20:55:58.195819'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596313:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex -0.5000000000000001
+      - - !!python/complex -0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8739344596393:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  - 0
+  SIT: 169462.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:58.203409'
+- BAS: null
+  INS: epr_EntanglementStage.START
+  LOG: start entanglement creation between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596253:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596313:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596393:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  - 1
+  SIT: 171545.0
+  TYP: null
+  WCT: '2022-04-09 20:55:58.287023'
+- BAS: null
+  INS: epr_EntanglementStage.FINISH
+  LOG: entanglement of type 0 created between amsterdam and leiden
+  MSR: null
+  NOD:
+  - amsterdam
+  - leiden
+  PTH:
+  - amsterdam-leiden
+  QGR:
+    8739344596313:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8739344596393:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8739344674277:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  - 1
+  SIT: 172545.0
+  TYP: epr_EntanglementType.CK
+  WCT: '2022-04-09 20:55:58.288830'

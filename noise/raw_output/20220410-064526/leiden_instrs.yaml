@@ -1,0 +1,2806 @@
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790688706:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 0
+  SIT: 14582.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.448319'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790699900:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+  QID:
+  - 0
+  SID: 1
+  SIT: 266636.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.516332'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR: {}
+  QID:
+  - 0
+  SID: 1
+  SIT: 266636.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.516691'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790699955:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.9999999999999998
+        - !!python/complex -1.1102230246251564e-16+1.2703590903905997e-33j
+      - - !!python/complex -1.1102230246251564e-16-1.2703590903905997e-33j
+        - !!python/complex 1.232595164407831e-32
+    8769790700015:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  SID: 2
+  SIT: 273195.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.613470'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790700015:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  SID: 2
+  SIT: 273195.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.614116'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790699955:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.4999999999999999
+      - - !!python/complex -0.4999999999999999
+        - !!python/complex 0.4999999999999999
+  QID:
+  - 0
+  SID: 3
+  SIT: 277673.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:27.728695'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 3
+  SIT: 277673.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:27.729142'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790670430:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 4
+  SIT: 279355.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.847111'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790670500:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.4999999999999999
+      - - !!python/complex -0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 5
+  SIT: 285022.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.915717'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 5
+  SIT: 285022.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:27.916106'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790670565:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 6
+  SIT: 286692.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.028605'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 7
+  SIT: 290012.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.106544'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790675033:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.20000000000000004
+        - !!python/complex -0.4
+      - - !!python/complex -0.4
+        - !!python/complex 0.7999999999999999
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 8
+  SIT: 292695.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.494956'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 9
+  SIT: 295022.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.577975'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790675183:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 10
+  SIT: 298352.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.629361'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790675183:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.5
+      - - !!python/complex -0.5
+        - !!python/complex 0.5000000000000001
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 10
+  SIT: 298352.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:28.630120'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790675193:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790700015:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 11
+  SIT: 301888.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.064939'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790675163:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790678702:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 12
+  SIT: 306246.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.290369'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790678572:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790678702:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 13
+  SIT: 309457.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.481105'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790678762:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.4999999999999999
+      - - !!python/complex -0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790678767:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 14
+  SIT: 313103.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.611061'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790678762:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790678767:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 14
+  SIT: 313103.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.611715'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790678767:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790683491:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  SID: 15
+  SIT: 315312.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.663810'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790683491:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 1
+      state: null
+  QID:
+  - 0
+  SID: 15
+  SIT: 315312.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.664547'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790683491:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.9999999999999998
+        - !!python/complex -1.1102230246251564e-16+1.2703590903905997e-33j
+      - - !!python/complex -1.1102230246251564e-16-1.2703590903905997e-33j
+        - !!python/complex 1.232595164407831e-32
+    8769790683566:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 16
+  SIT: 318515.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.712829'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790683491:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790683566:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 16
+  SIT: 318515.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.713472'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790683566:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.9999999999999998
+        - !!python/complex -1.1102230246251564e-16+1.2703590903905997e-33j
+      - - !!python/complex -1.1102230246251564e-16-1.2703590903905997e-33j
+        - !!python/complex 1.232595164407831e-32
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 17
+  SIT: 322613.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.818112'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 17
+  SIT: 322613.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:29.818499'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 18
+  SIT: 323802.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:29.835623'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790654809:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 19
+  SIT: 325096.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:30.053345'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790654854:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 6.162975822039156e-33
+        - !!python/complex -7.850462293418876e-17
+      - - !!python/complex -7.850462293418876e-17
+        - !!python/complex 1.0
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 20
+  SIT: 331381.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:30.131184'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 20
+  SIT: 331381.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:30.131542'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790654924:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 21
+  SIT: 334701.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:30.279780'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 21
+  SIT: 334701.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:30.280154'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790654959:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 22
+  SIT: 336667.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:31.004072'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 23
+  SIT: 341050.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:31.102640'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790658207:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 24
+  SIT: 344377.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:31.777968'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 24
+  SIT: 344377.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:31.778324'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790658252:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 25
+  SIT: 346320.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:31.889992'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790658297:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790683636:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 26
+  SIT: 349992.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.186023'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790662223:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 27
+  SIT: 360602.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.303627'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 27
+  SIT: 360602.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.304069'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790662223:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.4999999999999999
+      - - !!python/complex -0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 28
+  SIT: 362784.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:32.316034'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 28
+  SIT: 362784.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:32.316462'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790662388:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 29
+  SIT: 364984.0
+  VID:
+  - 2
+  WCT: '2022-04-10 06:45:32.352506'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790662388:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 29
+  SIT: 364984.0
+  VID:
+  - 2
+  WCT: '2022-04-10 06:45:32.353207'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 30
+  SIT: 367184.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.371578'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790666876:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 31
+  SIT: 875500.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.432253'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790666921:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.4999999999999999
+      - - !!python/complex -0.4999999999999999
+        - !!python/complex 0.4999999999999999
+  QID:
+  - 0
+  SID: 32
+  SIT: 880155.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.474889'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 32
+  SIT: 880155.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.475310'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790666991:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 33
+  SIT: 881771.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.526193'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790667001:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 34
+  SIT: 886374.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.574143'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790639494:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 35
+  SIT: 890019.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.606185'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790639564:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 36
+  SIT: 2784031.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.770073'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790639564:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.5
+      - - !!python/complex -0.5
+        - !!python/complex 0.5000000000000001
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 36
+  SIT: 2784031.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.770789'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790639604:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 37
+  SIT: 2788347.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.802933'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 37
+  SIT: 2788347.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.803335'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790644805:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+      - - !!python/complex 0.5000000000000001
+        - !!python/complex 0.5000000000000001
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 38
+  SIT: 4686027.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.920913'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 38
+  SIT: 4686027.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:32.921326'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790644890:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 39
+  SIT: 4689720.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.034055'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790644890:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.5
+      - - !!python/complex 0.5
+        - !!python/complex 0.5000000000000001
+    8769790662273:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 39
+  SIT: 4689720.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.034771'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790644740:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790644975:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex -0.5
+      - - !!python/complex -0.5
+        - !!python/complex 0.5000000000000001
+    8769790662323:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+  QID:
+  - 0
+  SID: 40
+  SIT: 4698347.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.214343'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790649659:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.5
+      - - !!python/complex 0.5
+        - !!python/complex 0.5000000000000001
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 41
+  SIT: 4701835.0
+  VID:
+  - 1
+  WCT: '2022-04-10 06:45:33.254800'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790649659:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 0.9999999999999998
+        - !!python/complex -1.1102230246251564e-16+1.2703590903905997e-33j
+      - - !!python/complex -1.1102230246251564e-16-1.2703590903905997e-33j
+        - !!python/complex 1.232595164407831e-32
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790678702:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      - - bob
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 42
+  SIT: 4704911.0
+  VID:
+  - 2
+  WCT: '2022-04-10 06:45:33.357614'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790678702:
+      is_entangled: true
+      qubit_ids:
+      - - alice
+        - 0
+      state: null
+  QID:
+  - 0
+  SID: 42
+  SIT: 4704911.0
+  VID:
+  - 2
+  WCT: '2022-04-10 06:45:33.358342'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 43
+  SIT: 4707552.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.391873'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790654734:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 44
+  SIT: 4711953.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.766162'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 44
+  SIT: 4711953.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:33.766627'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 18
+  QGR:
+    8769790658292:
+      is_entangled: false
+      qubit_ids:
+      - - alice
+        - 0
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 45
+  SIT: 9079853.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:34.062057'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790658147:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 6.162975822039156e-33
+        - !!python/complex -7.850462293418876e-17
+      - - !!python/complex -7.850462293418876e-17
+        - !!python/complex 1.0
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 46
+  SIT: 9085523.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:34.141583'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=1']
+  OPR:
+  - Q0=0
+  - M0=1
+  OUT: 1
+  PRC: 20
+  QGR:
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 46
+  SIT: 9085523.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:34.141982'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: h
+  LOG: Doing instruction h with operands ['Q0=0']
+  OPR:
+  - Q0=0
+  OUT: null
+  PRC: 18
+  QGR:
+    8769790662248:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 0
+      state:
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+      - - !!python/complex 0.4999999999999999
+        - !!python/complex 0.4999999999999999
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 47
+  SIT: 9089565.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:34.199240'
+- AID: 0
+  ANG: null
+  HFL: null
+  HLN: null
+  INS: meas
+  LOG: Doing instruction meas with operands ['Q0=0', 'M0=0']
+  OPR:
+  - Q0=0
+  - M0=0
+  OUT: 0
+  PRC: 20
+  QGR:
+    8769790674973:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 2
+      state:
+      - - !!python/complex 1.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+    8769790675018:
+      is_entangled: false
+      qubit_ids:
+      - - bob
+        - 1
+      state:
+      - - !!python/complex 0.0
+        - !!python/complex 0.0
+      - - !!python/complex 0.0
+        - !!python/complex 1.0
+  QID:
+  - 0
+  SID: 47
+  SIT: 9089565.0
+  VID:
+  - 0
+  WCT: '2022-04-10 06:45:34.199612'

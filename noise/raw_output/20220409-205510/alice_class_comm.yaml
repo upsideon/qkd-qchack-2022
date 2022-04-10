@@ -1,0 +1,63 @@
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 56
+  INS: SEND
+  LOG: 'Send classical message to bob: 011001110000110101111010101101110011000010001011'
+  MSG: '011001110000110101111010101101110011000010001011'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:55:16.944772'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:55:16.944862'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: RECV
+  LOG: 'Message received from bob: 110100100011011100000110101010100011110011001010'
+  MSG: '110100100011011100000110101010100011110011001010'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:55:17.046425'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 66
+  INS: SEND
+  LOG: 'Send classical message to bob: 0,21,19,5,7,13,16,4,18,3'
+  MSG: 0,21,19,5,7,13,16,4,18,3
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:55:17.046555'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 76
+  INS: SEND
+  LOG: 'Send classical message to bob: 0000000010'
+  MSG: '0000000010'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 20:55:17.046615'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:55:17.046666'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from bob: 0000000010'
+  MSG: '0000000010'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 20:55:17.189735'

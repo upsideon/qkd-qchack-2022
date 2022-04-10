@@ -1,0 +1,135 @@
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 56
+  INS: SEND
+  LOG: 'Send classical message to bob: 001010100001000001111010101000110011011100010110'
+  MSG: '001010100001000001111010101000110011011100010110'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.140302'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.140372'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 82
+  INS: RECV
+  LOG: 'Message received from bob: 101111100100001101101111110110000111001011000101'
+  MSG: '101111100100001101101111110110000111001011000101'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.241952'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 66
+  INS: SEND
+  LOG: 'Send classical message to bob: 5,23,18,8,11,14,17,10'
+  MSG: 5,23,18,8,11,14,17,10
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.242060'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 76
+  INS: SEND
+  LOG: 'Send classical message to bob: 11011010'
+  MSG: '11011010'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.242120'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.242167'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/util.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from bob: 10011010'
+  MSG: '10011010'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.359553'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 82
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.359644'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 82
+  INS: RECV
+  LOG: 'Message received from bob: 0,1,2,3,4,5'
+  MSG: 0,1,2,3,4,5
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.359674'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 90
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.359718'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 91
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.359765'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 91
+  INS: RECV
+  LOG: 'Message received from bob: 6,7,8,9,10,11,12,13,14,15'
+  MSG: 6,7,8,9,10,11,12,13,14,15
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.466434'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 90
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.466496'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 91
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.466544'
+- HFL: /home/satoshi/Documents/QuantumComputing/hackathons/QCHack/code/qutech/qne-qchack-2022/noise/input/cascade.py
+  HLN: 91
+  INS: RECV
+  LOG: 'Message received from bob: STOP'
+  MSG: STOP
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 06:28:08.579586'
