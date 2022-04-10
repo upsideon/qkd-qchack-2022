@@ -16,6 +16,25 @@ If you'd like to run my solution without noise, execute `python autocheck.py`. I
 
 Tests were written for portions of the Cascade information reconciliation algorithm and they can be run by executing `python qkd/src/test_cascade.py`.
 
+### References
+
+I would have been hard pressed to get as far as I did within 24 hours without the help of the following resources:
+
+Bennett, Charles H., Gilles Brassard, and N. David Mermin. "Quantum cryptography without Bell’s theorem." Physical review letters 68.5 (1992): 557.
+
+Dahlberg, Axel, et al. "NetQASM--A low-level instruction set architecture for hybrid quantum-classical programs in a quantum internet." arXiv preprint arXiv:2111.09823 (2021).
+
+Ekert, Artur K. "Quantum Cryptography and Bell’s Theorem." Quantum Measurements in Optics. Springer, Boston, MA, 1992. 413-418.
+
+Erven, Chris. On free space quantum key distribution and its implementation with a polarization-entangled parametric down conversion source. MS thesis. University of Waterloo, 2007.
+
+Elkouss, David, Jesus Martinez-Mateo, and Vicente Martin. "Information reconciliation for quantum key distribution." arXiv preprint arXiv:1007.1616 (2010).
+
+Fung, Chi-Hang Fred, Xiongfeng Ma, and H. F. Chau. "Practical issues in quantum-key-distribution postprocessing." Physical Review A 81.1 (2010): 012318.
+
+
+
+
 ## Introduction to Quantum Networks with the Quantum Network Explorer
 
 If you are entirely new to quantum communication, please head over to the
