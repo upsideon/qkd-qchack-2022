@@ -32,6 +32,8 @@ Elkouss, David, Jesus Martinez-Mateo, and Vicente Martin. "Information reconcili
 
 Fung, Chi-Hang Fred, Xiongfeng Ma, and H. F. Chau. "Practical issues in quantum-key-distribution postprocessing." Physical Review A 81.1 (2010): 012318.
 
+“A Cascade Information Reconciliation Tutorial.” Hiking and Coding, 15 Jan. 2020, hikingandcoding.wordpress.com/2020/01/15/a-cascade-information-reconciliation-tutorial/. Accessed 10 Apr. 2022.
+
 
 
 
