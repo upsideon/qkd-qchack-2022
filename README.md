@@ -4,6 +4,8 @@ This repository contains my solution to QuTech's [Quantum Network Explorer](http
 
 Given the limited time period of the hackathon, this repository isn't especially polished and I intend to make changes once the judging period has ended. Everything past the "Solution Description" section is a part of the original QuTech QCHack 2022 repository template and can be referenced or ignored at your discretion.
 
+Many thanks to the organizers and sponsors of QCHack 2022 for an excellent hacking experience! Thank you in particular to QuTech for creating a challenge that pushed me to dive into the world of quantum key distribution!
+
 ## Solution Description
 
 My solution implements the BBM92 quantum key distribution algorithm. This works just fine without noise and seems to be robust to eavesdropping. With noise there are still some difficulties as my implementation of the Cascade information reconciliation algorithm has some flaws. It appears to work partially, but there are edge cases that I seem to not be handling. I looking forward to updating this in the future once I've had some rest.
@@ -20,21 +22,19 @@ Tests were written for portions of the Cascade information reconciliation algori
 
 I would have been hard pressed to get as far as I did within 24 hours without the help of the following resources:
 
-Bennett, Charles H., Gilles Brassard, and N. David Mermin. "Quantum cryptography without Bell’s theorem." Physical review letters 68.5 (1992): 557.
+* Bennett, Charles H., Gilles Brassard, and N. David Mermin. "Quantum cryptography without Bell’s theorem." Physical review letters 68.5 (1992): 557.
 
-Dahlberg, Axel, et al. "NetQASM--A low-level instruction set architecture for hybrid quantum-classical programs in a quantum internet." arXiv preprint arXiv:2111.09823 (2021).
+* Dahlberg, Axel, et al. "NetQASM--A low-level instruction set architecture for hybrid quantum-classical programs in a quantum internet." arXiv preprint arXiv:2111.09823 (2021).
 
-Ekert, Artur K. "Quantum Cryptography and Bell’s Theorem." Quantum Measurements in Optics. Springer, Boston, MA, 1992. 413-418.
+* Ekert, Artur K. "Quantum Cryptography and Bell’s Theorem." Quantum Measurements in Optics. Springer, Boston, MA, 1992. 413-418.
 
-Erven, Chris. On free space quantum key distribution and its implementation with a polarization-entangled parametric down conversion source. MS thesis. University of Waterloo, 2007.
+* Erven, Chris. On free space quantum key distribution and its implementation with a polarization-entangled parametric down conversion source. MS thesis. University of Waterloo, 2007.
 
-Elkouss, David, Jesus Martinez-Mateo, and Vicente Martin. "Information reconciliation for quantum key distribution." arXiv preprint arXiv:1007.1616 (2010).
+* Elkouss, David, Jesus Martinez-Mateo, and Vicente Martin. "Information reconciliation for quantum key distribution." arXiv preprint arXiv:1007.1616 (2010).
 
-Fung, Chi-Hang Fred, Xiongfeng Ma, and H. F. Chau. "Practical issues in quantum-key-distribution postprocessing." Physical Review A 81.1 (2010): 012318.
+* Fung, Chi-Hang Fred, Xiongfeng Ma, and H. F. Chau. "Practical issues in quantum-key-distribution postprocessing." Physical Review A 81.1 (2010): 012318.
 
-“A Cascade Information Reconciliation Tutorial.” Hiking and Coding, 15 Jan. 2020, hikingandcoding.wordpress.com/2020/01/15/a-cascade-information-reconciliation-tutorial/. Accessed 10 Apr. 2022.
-
-
+* “A Cascade Information Reconciliation Tutorial.” Hiking and Coding, 15 Jan. 2020, hikingandcoding.wordpress.com/2020/01/15/a-cascade-information-reconciliation-tutorial/. Accessed 10 Apr. 2022.
 
 
 ## Introduction to Quantum Networks with the Quantum Network Explorer
