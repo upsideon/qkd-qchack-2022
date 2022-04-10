@@ -1,14 +1,20 @@
 # QuTech Quantum Network Explorer QKD Challenge
 
-Welcome to QuTech's [Quantum Network Explorer](https://www.quantum-network.com/)
-QKD challenge!
+This repository contains my solution to QuTech's [Quantum Network Explorer](https://www.quantum-network.com) Quantum Key Distribution Challenge. Details on the challenge are given in [CHALLENGE.md](CHALLENGE.md).
 
-In this challenge you will have the possibility to implement your own QKD
-protocol and test it against an eavesdropper. Will you be able to detect an
-eavesdropper trying to listen in on your communications?
+Given the limited time period of the hackathon, this repository isn't especially polished and I intend to make changes once the judging period has ended. Everything past the "Solution Description" section is a part of the original QuTech QCHack 2022 repository template and can be referenced or ignored at your discretion.
 
-The rest of this README will take you through setting up your environment. For
-the tasks involved in this challenge, please see [CHALLENGE.md](CHALLENGE.md).
+## Solution Description
+
+My solution implements the BBM92 quantum key distribution algorithm. This works just fine without noise and seems to be robust to eavesdropping. With noise there are still some difficulties as my implementation of the Cascade information reconciliation algorithm has some flaws. It appears to work partially, but there are edge cases that I seem to not be handling. I looking forward to updating this in the future once I've had some rest.
+
+### Execution
+
+If you'd like to run my solution without noise, execute `python autocheck.py`. If you'd like to execute with noise, execute `qne experiment run noise --timeout 60`.
+
+### Tests
+
+Tests were written for portions of the Cascade information reconciliation algorithm and they can be run by executing `python qkd/src/test_cascade.py`.
 
 ## Introduction to Quantum Networks with the Quantum Network Explorer
 
