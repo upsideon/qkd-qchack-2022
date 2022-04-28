@@ -1,4 +1,0 @@
-- app_alice:
-    secret_key: null
-  app_bob:
-    secret_key: null
