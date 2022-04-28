@@ -1,7 +1,7 @@
 [
   {
     "title": "Secret key length",
-    "description": "This input is available for multiple roles",
+    "description": "Defines the length of the secret key",
     "values": [
       {
         "name": "key_length",
@@ -11,6 +11,25 @@
         "unit": "",
         "scale_value": 1.0
       }
+    ],
+    "input_type": "number",
+    "roles": [
+      "alice",
+      "bob"
+    ]
+  },
+  {
+    "title": "Eavesdropper",
+    "description": "Determines whether an eavesdropper is present",
+    "values": [
+			{
+				"name": "eavesdropper",
+				"default_value": 0,
+				"minimum_value": 0,
+				"maximum_value": 1,
+				"unit": "",
+				"scale_value": 1.0
+			}
     ],
     "input_type": "number",
     "roles": [

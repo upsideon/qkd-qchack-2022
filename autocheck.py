@@ -13,7 +13,11 @@ class BasicProtocolsTestCase(TestCase):
         super().__init__("Basic protocols", key_length)
 
     def _configure_test_case(self, experiment: Dict) -> None:
-        pass
+        # Configuring for eavesdropping, if present in configuration.
+        app_config = experiment["asset"]["application"]
+        eavesdrop_config = app_config[1]["values"][0]
+        eavesdrop = eavesdrop_config["value"]
+        self.eavesdrop = eavesdrop
 
     def _verify_test_case(
             self,
@@ -22,13 +26,14 @@ class BasicProtocolsTestCase(TestCase):
     ) -> TestCase.Result:
 
         if alice_secret_key is None:
-            return TestCase.Result(
-                success=False,
-                message=(
-                    "Alice and/or Bob did not generate a secret key "
-                    "even though no eavesdropper was present"
-                ),
-            )
+            if not self.eavesdrop:
+                return TestCase.Result(
+                    success=False,
+                    message=(
+                        "Alice and/or Bob did not generate a secret key "
+                        "even though no eavesdropper was present"
+                    ),
+                )
 
         return TestCase.Result(success=True, message=None)
 
@@ -38,6 +43,12 @@ class CascadeProtocolTestCase(TestCase):
         super().__init__("Cascade Protocol", key_length)
 
     def _configure_test_case(self, experiment: Dict) -> None:
+        # Configuring for eavesdropping, if present in configuration.
+        app_config = experiment["asset"]["application"]
+        eavesdrop_config = app_config[1]["values"][0]
+        eavesdrop = eavesdrop_config["value"]
+        self.eavesdrop = eavesdrop
+
         network_channels = experiment["asset"]["network"]["channels"]
 
         # Updating the fidelity on one of the network channels to
@@ -52,13 +63,22 @@ class CascadeProtocolTestCase(TestCase):
                         values = parameter["values"]
                         for value in values:
                             if value["name"] == "fidelity":
-                                value["value"] = 0.8
+                                value["value"] = 0.9
 
     def _verify_test_case(
             self,
             alice_secret_key: Optional[List[int]],
             bob_secret_key: Optional[List[int]]
     ) -> TestCase.Result:
+
+        if self.eavesdrop:
+            if alice_secret_key is not None or bob_secret_key is not None:
+                return TestCase.Result(
+                    success=False,
+                    message=(
+                        "A secret key was returned despite eavesdropping"
+                    ),
+                )
 
         if alice_secret_key != bob_secret_key:
             return TestCase.Result(

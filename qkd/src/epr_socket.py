@@ -18,10 +18,14 @@ class DerivedEPRSocket(EPRSocket):
             epr_socket_id: int = 0,
             remote_epr_socket_id: int = 0,
             min_fidelity: int = 100,
+            eavesdrop: bool = False,
     ):
         super().__init__(remote_app_name, epr_socket_id, remote_epr_socket_id, min_fidelity)
-        self._eve = Eve()
 
+        self.eavesdrop = eavesdrop
+
+        if self.eavesdrop:
+            self._eve = Eve()
 
     def create_keep(
         self,
@@ -44,8 +48,9 @@ class DerivedEPRSocket(EPRSocket):
             max_tries,
         )
 
-        for q in qubits:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits:
+                self._eve.eavesdrop(q)
 
         return qubits
 
@@ -68,8 +73,9 @@ class DerivedEPRSocket(EPRSocket):
             min_fidelity_all_at_end,
         )
 
-        for q in qubits_with_info[0]:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits_with_info[0]:
+                self._eve.eavesdrop(q)
 
         return qubits_with_info
 
@@ -132,8 +138,9 @@ class DerivedEPRSocket(EPRSocket):
             random_basis_remote,
         )
 
-        for q in qubits:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits:
+                self._eve.eavesdrop(q)
 
         return qubits
 
@@ -163,8 +170,9 @@ class DerivedEPRSocket(EPRSocket):
             max_tries,
         )
 
-        for q in qubits:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits:
+                self._eve.eavesdrop(q)
 
         return qubits
 
@@ -185,8 +193,9 @@ class DerivedEPRSocket(EPRSocket):
             max_tries,
         )
 
-        for q in qubits_with_info[0]:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits_with_info[0]:
+                self._eve.eavesdrop(q)
 
         return qubits_with_info
 
@@ -229,8 +238,9 @@ class DerivedEPRSocket(EPRSocket):
             tp,
         )
 
-        for q in qubits:
-            self._eve.eavesdrop(q)
+        if self.eavesdrop:
+            for q in qubits:
+                self._eve.eavesdrop(q)
 
         return qubits
 

@@ -10,7 +10,7 @@ import util
 
 logger = get_netqasm_logger()
 
-def main(app_config=None, key_length=16):
+def main(app_config=None, eavesdropper=False, key_length=16):
     # Ensuring that logs can be visualized following experiment.
     fileHandler = logging.FileHandler("bob_logfile.log")
     logger.setLevel(logging.INFO)
@@ -19,7 +19,7 @@ def main(app_config=None, key_length=16):
     # Socket for classical communication
     socket = Socket("bob", "alice", log_config=app_config.log_config)
     # Socket for EPR generation
-    epr_socket = EPRSocket("alice")
+    epr_socket = EPRSocket("alice", eavesdrop=eavesdropper)
 
     bob = NetQASMConnection(
         app_name=app_config.app_name,
@@ -79,8 +79,8 @@ def main(app_config=None, key_length=16):
 
         # According to Erven 2007, the upper bound for a QBER that
         # should be identified as noise instead of eavesdropping is
-        # 14.6%. Here we round to 20%.
-        if qber < 0.2:
+        # 14.6%. Here we round to 15%.
+        if qber < 0.15:
             secret_key_bits = []
 
             # Filtering out the bits sent for comparison.

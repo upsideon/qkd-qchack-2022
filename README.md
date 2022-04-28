@@ -12,15 +12,19 @@ This solution implements the [BBM92](https://journals.aps.org/prl/abstract/10.11
 
 In this solution, the Cascade protocol is used as a classical post-processing step for information reconciliation. Assuming that Alice is the party with the correct key, Cascade allows Bob to correct his key in a way that reveals the least amount of information to an eavesdropper on the classical channel. Here, the protocol is implemented in such a way that it is not dependent on a particular communication mechanism and instead takes in a function which implements network specific logic. In this way, the code can be adapted to use frameworks outside of the Quantum Network Explorer, if necessary.
 
-### Executing Experiments
-
-All experiments can be run by executing `python autocheck.py`. The first experiment tests quantum key distribution in a noiseless environment, while the second experiment Cascade information reconciliation protocol in a noisy environment. Following experimentation, results can be found in `basic-experiment/results/processed.json` and `noise-experiment/results/processed.json`.
-
 ### Dependencies
 
 The main dependencies of this project are the Quantum Network Explorer for simulating quantum networking environments and NumPy which facilitates an efficient and concise implementation of the Cascade protocol. To install the dependencies, execute `pip install -r requirements.txt`.
 
 At the time of writing, installing the version of Quantum Network Explorer used in this repository requires a NetSquid forum account for accessing the Python package index hosted by QuTech. Anyone can register for an account [here](https://forum.netsquid.org/).
+
+### Executing Experiments
+
+All experiments can be run by executing `python autocheck.py`. The first experiment tests quantum key distribution in a noiseless environment, while the second experiment Cascade information reconciliation protocol in a noisy environment. Following experimentation, results can be found in `basic-experiment/results/processed.json` and `noise-experiment/results/processed.json`.
+
+### Eavesdropper Configuration
+
+The precense of an eavesdropper can be toggled on and off by updating the default value of the `eavesdropper` configuration option found in `qkd/config/application.json`. A value of one triggers eavesdropping, while a value of zero ensures the absence of an eavesdropper.
 
 ### Tests
 

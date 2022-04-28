@@ -10,7 +10,7 @@ import util
 
 logger = get_netqasm_logger()
 
-def main(app_config=None, key_length=16):
+def main(app_config=None, eavesdropper=False, key_length=16):
     # Ensuring that logs can be visualized following experiment.
     fileHandler = logging.FileHandler("alice_logfile.log")
     logger.setLevel(logging.INFO)
@@ -19,7 +19,7 @@ def main(app_config=None, key_length=16):
     # Socket for classical communication
     socket = Socket("alice", "bob", log_config=app_config.log_config)
     # Socket for EPR generation
-    epr_socket = EPRSocket("bob")
+    epr_socket = EPRSocket("bob", eavesdrop=eavesdropper)
 
     alice = NetQASMConnection(
         app_name=app_config.app_name,
