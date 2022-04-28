@@ -5,9 +5,7 @@ from typing import Dict, List, Optional
 
 from test_case import TestCase
 
-EXPERIMENT_NAME = "autocheck-experiment"
 KEY_LENGTH = 16
-
 
 class BasicProtocolsTestCase(TestCase):
 
@@ -34,6 +32,44 @@ class BasicProtocolsTestCase(TestCase):
 
         return TestCase.Result(success=True, message=None)
 
+class CascadeProtocolTestCase(TestCase):
+
+    def __init__(self, key_length):
+        super().__init__("Cascade Protocol", key_length)
+
+    def _configure_test_case(self, experiment: Dict) -> None:
+        network_channels = experiment["asset"]["network"]["channels"]
+
+        # Updating the fidelity on one of the network channels to
+        # introduce noise. If the Cascade information reconciliation
+        # process is correctly implemented, it should be able to
+        # correct this level of noise.
+        for network_channel in network_channels:
+            if network_channel["slug"] == "amsterdam-leiden":
+                parameters = network_channel["parameters"]
+                for parameter in parameters:
+                    if parameter["slug"] == "elementary-link-fidelity":
+                        values = parameter["values"]
+                        for value in values:
+                            if value["name"] == "fidelity":
+                                value["value"] = 0.8
+
+    def _verify_test_case(
+            self,
+            alice_secret_key: Optional[List[int]],
+            bob_secret_key: Optional[List[int]]
+    ) -> TestCase.Result:
+
+        if alice_secret_key != bob_secret_key:
+            return TestCase.Result(
+                success=False,
+                message=(
+                    "Alice and Bob do not share the same secret key"
+                ),
+            )
+
+        return TestCase.Result(success=True, message=None)
+
 
 def run(test: TestCase, timeout: int = 60) -> bool:
     test.configure()
@@ -47,23 +83,36 @@ def run(test: TestCase, timeout: int = 60) -> bool:
 
     return test.verify()
 
+experiments = [
+    {
+        "name": "basic-experiment",
+        "test_case": BasicProtocolsTestCase,
+    },
+    {
+        "name": "noise-experiment",
+        "test_case": CascadeProtocolTestCase,
+    },
+]
 
 def main():
-    if os.path.exists(EXPERIMENT_NAME):
-        shutil.rmtree(EXPERIMENT_NAME)
+    for experiment in experiments:
+        experiment_name = experiment["name"]
 
-    result = subprocess.run(
-        ["qne", "experiment", "create", EXPERIMENT_NAME, "qkd", "randstad"],
-        stdout=subprocess.DEVNULL,
-    )
-    if result.returncode != 0:
-        raise RuntimeError("Experiment creation failed")
+        if os.path.exists(experiment_name):
+            shutil.rmtree(experiment_name)
 
-    os.chdir(EXPERIMENT_NAME)
+        result = subprocess.run(
+            ["qne", "experiment", "create", experiment_name, "qkd", "randstad"],
+            stdout=subprocess.DEVNULL,
+        )
+        if result.returncode != 0:
+            raise RuntimeError("Experiment creation failed")
 
-    success = run(BasicProtocolsTestCase(KEY_LENGTH))
+        os.chdir(experiment_name)
 
-    os.chdir("..")
+        success = run(experiment["test_case"](KEY_LENGTH))
+
+        os.chdir("..")
 
     return success
 
