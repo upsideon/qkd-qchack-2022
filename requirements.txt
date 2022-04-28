@@ -31,7 +31,7 @@ netsquid-magic==12.1.0
 netsquid-nv==8.0.0
 netsquid-physlayer==4.3.0
 netsquid-simulationtools==2.0.0
-numpy==1.18.5
+numpy==1.22.3
 packaging==21.3
 pandas==1.4.2
 pathspec==0.9.0
