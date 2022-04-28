@@ -94,7 +94,13 @@ def main(app_config=None, key_length=16):
 
             # Ask questions to Alice until the Cascade information
             # reconciliation algorithm has terminated.
-            secret_key = cascade.cascade(secret_key, qber, socket, logger)
+            ask_parity_fn = cascade.get_ask_block_parity_fn(secret_key, socket)
+            secret_key = cascade.client_cascade(secret_key, qber, ask_parity_fn)
+            cascade.send_cascade_stop(socket)
+
+            # Converting NumPy array representation back into a list representation
+            # to make it compatible with the auto-checking code.
+            secret_key = secret_key.tolist()
         else:
             secret_key = None
 

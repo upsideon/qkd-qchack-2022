@@ -1,6 +1,4 @@
-import math
-
-from random import sample
+import numpy as np
 
 def quantum_bit_error_rate(local_set, remote_set):
     """
@@ -12,46 +10,145 @@ def quantum_bit_error_rate(local_set, remote_set):
             num_incorrect += 1
     return num_incorrect / len(local_set)
 
-def get_block_size(quantum_bit_error_rate, iteration):
+def binary_algorithm(block, block_indices, ask_parity_fn):
     """
-    Determines the appropriate block size given the QBER.
+    Recursively splits a block with odd error parity into
+    left and right sub-blocks to find and correct one-bit
+    errors.
     """
-    block_size = 0
-    for i in range(iteration + 1):
-        if i == 0:
-            block_size = math.ceil(0.73 / quantum_bit_error_rate)
+
+    # If we have a block of size one, we correct the bit as
+    # it must have an odd number of errors per the input
+    # assumptions of the binary algorithm.
+    if len(block) == 1:
+        if block[0] == 0:
+            block[0] = 1
         else:
-            block_size = 2 * block_size
-    return block_size
-        
-def shuffle_block(block):
-    """
-    Randomly shuffles a block.
+            block[0] = 0
+        return block
 
-    Returns:
+    # The block split index selection ensures that the left
+    # block has one more bit than the right when the block
+    # size is odd.
+    block_split_index = (len(block) + 1) // 2
 
-    shuffled_block - The shuffled block.
-    unshuffled_indices - The original indices associated with shuffled elements.
-    """
-    indices = [*range(len(block))]
-    shuffled_indices = sample(indices, k=len(indices))
-    shuffled_block = [block[i] for i in shuffled_indices]
-    return shuffled_block, shuffled_indices
+    left_block = block[:block_split_index]
+    right_block = block[block_split_index:]
 
-def split_block(block):
-    """
-    Splits a block returning two sublocks of equal or nor equal size.
-    """
-    split_location = (len(block) + 1) // 2
-    left_block = block[:split_location]
-    right_block = block[split_location:]
-    return left_block, right_block
+    left_block_indices = block_indices[:block_split_index]
+    right_block_indices = block_indices[block_split_index:]
 
-def get_block_parity(block):
+    # Computing the current parity of the left block.
+    current_left_block_parity = np.sum(left_block) % 2
+
+    # Asking for the correct parity of the left block. The
+    # parity of the right block can be inferred from the left
+    # block's parity.
+    correct_left_block_parity = ask_parity_fn(left_block_indices)
+
+    # Determining the error parity for the left block.
+    left_block_error_parity = current_left_block_parity ^ correct_left_block_parity
+
+    # Recursing on the block with odd error parity.
+    if left_block_error_parity == 1:
+        left_block = binary_algorithm(left_block, left_block_indices, ask_parity_fn)
+    else:
+        right_block = binary_algorithm(right_block, right_block_indices, ask_parity_fn)
+
+    return np.concatenate((left_block, right_block))
+
+def client_cascade(noisy_key, qber, ask_parity_fn):
     """
-    Returns the parity of a block.
+    An implementation of the Cascade information reconciliation algorithm
+    used for post-processing of keys exchanged via quantum key distribution.
     """
-    return sum(block) % 2
+
+    # Representing the noisy key as a NumPy array, if it isn't already.
+    noisy_key = np.array(noisy_key)
+
+    key_length = len(noisy_key)
+
+    # If the estimated quantum bit error rate is 0%, assume that a reasonable
+    # amount of errors were present outside of the sampling set.
+    if qber == 0.0:
+        qber = 0.1
+
+    # The top level block size is determined by the quantum bit error rate.
+    block_size = int(np.round(0.73 / qber))
+
+    iteration = 0
+
+    while block_size <= key_length:
+        # The identity permutation is used for the first iteration.
+        permutation = np.arange(key_length)
+
+        if iteration > 0:
+            # Randomly shuffle Bob's key.
+            rng = np.random.default_rng()
+            permutation = rng.permutation(key_length)
+            shuffled_key = noisy_key[permutation]
+
+            # Increasing block size for current iteration.
+            block_size *= 2
+        else:
+            # The key is not shuffled during the first iteration.
+            shuffled_key = noisy_key.copy()
+
+        num_blocks = int(np.ceil(key_length / block_size))
+
+        for block_index in range(num_blocks):
+            block = None
+            block_indices = None
+
+            block_start = block_size * block_index
+
+            if block_index < num_blocks - 1:
+                block_end = block_size * (block_index + 1)
+
+                block = shuffled_key[block_start:block_end]
+                block_indices = permutation[block_start:block_end]
+            else:
+                # The final block is not guaranteed to have the exact block size.
+                block = shuffled_key[block_start:]
+                block_indices = permutation[block_start:]
+
+            # Computing current block parity.
+            current_block_parity = np.sum(block) % 2
+
+            # Requesting correct block parity.
+            correct_block_parity = ask_parity_fn(block_indices)
+
+            # Determining error parity.
+            error_parity = current_block_parity ^ correct_block_parity
+
+            # Correcting one-bit errors for blocks with odd error parity.
+            if error_parity == 1:
+                updated_block = binary_algorithm(block, block_indices, ask_parity_fn)
+                noisy_key[block_indices] = updated_block
+
+        iteration += 1
+
+    return noisy_key
+
+def get_ask_block_parity_fn(secret_key, socket):
+    """
+    Returns a function for requesting block parities that is compatible
+    with the signature expected by client_cascade, but which communicates
+    over a NetQasm socket.
+    """
+
+    secret_key = np.array(secret_key)
+
+    def ask_block_parity(block_indices):
+        request = ",".join([str(b) for b in list(block_indices)])
+
+        socket.send(request)
+
+        response = socket.recv()
+
+        return int(response)
+
+    return ask_block_parity
 
 def get_block_parity_from_indices(full_key, indices):
     """
@@ -61,16 +158,6 @@ def get_block_parity_from_indices(full_key, indices):
     for i in indices:
         element_sum += full_key[i]
     return element_sum % 2
-
-def ask_block_parity(unshuffled_element_indices, socket):
-    """
-    Asks for the correct parity of a block.
-    """
-    message = ",".join([str(i) for i in unshuffled_element_indices])
-    socket.send(message)
-
-    response = socket.recv()
-    return int(response)
 
 def send_cascade_stop(socket):
     socket.send("STOP")
@@ -89,104 +176,3 @@ def listen_and_respond_block_parity(correct_key, socket):
         )
         socket.send(str(correct_parity))
         question = socket.recv()
-
-def get_error_parity(current_parity, correct_parity):
-    """
-    Returns the error parity based on current and correct parity.
-    """
-    return (current_parity + correct_parity) % 2
-
-def binary_algorithm(block, indices, socket):
-    """
-    Applies the binary algorithm to a block with odd parity.
-    This is a recursive process which results in a single bit
-    correction.
-    """
-    if len(block) == 0:
-        return block
-
-    if len(block) == 1:
-        block[0] = 1 if block[0] == 0 else 0
-        return block
-
-    left_block, right_block = split_block(block)
-    left_block_indices, right_block_indices = split_block(indices)
-
-    current_left_block_parity = get_block_parity(block)
-    correct_left_block_parity = ask_block_parity(indices, socket)
-    
-    left_block_error_parity = get_error_parity(
-        current_left_block_parity,
-        correct_left_block_parity,
-    )
-
-    # Recursively apply the binary algorithm to sublocks with odd error parity.
-    if left_block_error_parity == 1:
-        binary_algorithm(left_block, left_block_indices, socket)
-    else:
-        binary_algorithm(right_block, right_block_indices, socket)
-
-    return left_block + right_block
-
-def cascade(key, qber, socket, logger=None):
-    """
-    Applies the Cascade information reconciliation algorithm to a key.
-    """
-    if qber == 0.0:
-        qber = 0.1
-
-    i = 0
-
-    block_size = get_block_size(qber, i)
-    shuffled_key = key.copy()
-    indices = [*range(len(key))]
-
-    while block_size <= len(key):
-        num_blocks = len(key) // block_size
-
-        # Only shuffling the key after the first iteration.
-        if i > 0:
-            shuffled_key, indices = shuffle_block(key)
-
-        updated_shuffled_key = []
-
-        # Processing blocks.
-        for block_index in range(num_blocks):
-            block_start = block_index * block_size
-            block_end = (block_index + 1) * block_size
-
-            if block_index == num_blocks - 1:
-                leftovers = len(key) - num_blocks * block_size
-                block_end += leftovers
-
-            block = shuffled_key[block_start:block_end]
-            block_indices = indices[block_start:block_end]
-
-            current_parity = get_block_parity(block)
-            correct_parity = ask_block_parity(block_indices, socket)
-            error_parity = get_error_parity(
-                current_parity,
-                correct_parity,
-            )
-
-            if error_parity == 1:
-                block = binary_algorithm(block, block_indices, socket)
-
-            updated_shuffled_key += block
-
-        updated_unshuffled_key = [-1] * len(key)
-
-        for i in range(len(key)):
-            updated_unshuffled_key[i] = key[indices[i]]
-
-        i += 1
-
-        block_size = get_block_size(qber, i)
-
-        key = updated_unshuffled_key
-
-    send_cascade_stop(socket)
-
-    return key
-
-
