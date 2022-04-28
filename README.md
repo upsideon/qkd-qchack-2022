@@ -16,6 +16,12 @@ In this solution, the Cascade protocol is used as a classical post-processing st
 
 All experiments can be run by executing `python autocheck.py`. The first experiment tests quantum key distribution in a noiseless environment, while the second experiment Cascade information reconciliation protocol in a noisy environment. Following experimentation, results can be found in `basic-experiment/results/processed.json` and `noise-experiment/results/processed.json`.
 
+### Dependencies
+
+The main dependencies of this project are the Quantum Network Explorer for simulating quantum networking environments and NumPy which facilitates an efficient and concise implementation of the Cascade protocol. To install the dependencies, execute `pip install -r requirements.txt`.
+
+At the time of writing, installing the version of Quantum Network Explorer used in this repository requires a NetSquid forum account for accessing the Python package index hosted by QuTech. Anyone can register for an account [here](https://forum.netsquid.org/).
+
 ### Tests
 
 Tests were written for portions of the Cascade information reconciliation algorithm and they can be run by executing `python qkd/src/test_cascade.py`.
