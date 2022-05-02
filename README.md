@@ -2,7 +2,7 @@
 
 This repository contains my solution to QuTech's [Quantum Network Explorer](https://www.quantum-network.com) Quantum Key Distribution Challenge. Details on the challenge are given [here](CHALLENGE.md).
 
-The original solution submitted to the hackathon can be viewed [here](https://github.com/upsideon/qkd-qchack-2022/tree/qchack-2022). Although the solution received [second place](https://www.quantumcoalition.io/winners-2022) it wasn't especially polished given the 24 hour time frame. In particular, although the BBM92 quantum key distribution algorithm was implemented successfully, my attempt at implementing the Cascade information reconciliation protocol as a post-processing step failed. Following the judging period, I was able to produce a working Cascade implementation. This an other updates are covered in the solution description.
+The original solution submitted to the hackathon can be viewed [here](https://github.com/upsideon/qkd-qchack-2022/tree/qchack-2022). Although the solution received [second place](https://www.quantumcoalition.io/winners-2022) it wasn't especially polished given the 24 hour time frame. In particular, although the BBM92 quantum key distribution algorithm was implemented successfully, my attempt at implementing the Cascade information reconciliation protocol as a post-processing step failed. Following the judging period, I was able to produce a working Cascade implementation. This and other updates are covered in the solution description.
 
 Many thanks to the organizers and sponsors of QCHack 2022 for an excellent hacking experience! Thank you in particular to QuTech for creating a challenge that pushed me to dive into the world of quantum key distribution!
 
